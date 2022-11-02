@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://portal.fmu.br/wp-content/uploads/cursos/_pos-graduacao/posgraduacao_enfermagem-em-urgencia-e-emergencia_bannermobile-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+.logo{
+    font-size: 35px;
+    color: #fafafa;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all .1s ease-in;
+}
+.logo:hover{
+    color: #06b900;
+}
+.logo .f:hover{
+    color: #fafafa;
+}
+.s{
+    color: #06b900;
+    transition: all .1s ease-in;
+    text-transform: capitalize;
+}
+.logo .s:hover{
+    color: #fafafa;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px 25px;
+    font-size: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+nav ul li a:hover{
+   color: #06b900;
+}
+.btn{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fafafa;
+    background: #06b900;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 25px 10px 25px; 
+    border-radius: 40px;
+    transition: all .1s linear;
+}
+.btn:hover{
+    color: #06b900;
+    background: transparent;
+    border: 2px solid #06b900;
+}
+.btn:active{
+    color: #fafafa;
+    background: #06b900;
+}
+.content{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h1{
+    color: #fafafa;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+h3{
+    color: #fafafa;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+h4{
+    color: #4bb947;
+    font-size: 25px;
+}
+.newsletter form{
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    border: 2px solid #06b900;
+    border-radius: 40px;
+    outline: none;
+    box-shadow: 0 0 0px #000, 0 0 51px #acacac;
+}
+.newsletter form input::placeholder{
+    color: #06b900;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    color: #fafafa;
+    background: #06b900;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 0px #000, 0 0 10px #acacac;
+    top: 7px;
+    right: 10px;
+}
+.about{
+    width: 100%;
+    padding: 110px 0px;
+    background-color: #202020;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    box-shadow: -32px 32px 24px -12px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: -32px 32px 24px -12px rgba(0, 0, 0, 0.7);
+}
+.about-text {
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text h2{
+    color: #fafafa;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: #4bb947;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+.about-text button{
+    background-color: #06b900;
+    color: #fafafa;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.2s linear;
+}
+.about-text button:hover{
+    background: transparent;
+    border: 2px solid #06b900;
+}
+.service{
+    background: #202020;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2{
+    color: #fafafa;
+    font-size: 75px;
+    width: 1130px;
+    margin: 60px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 122px;
+    width: 335px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all .4s linear;
+    box-shadow: 2px 26px 24px -12px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 2px 26px 24px -12px rgba(0, 0, 0, 0.5);
+}
+.card:hover{
+    height: 430px ;
+}
+.card i{
+    font-size: 50px;
+    color: #06b900;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+
+}
+h5{
+    color: #fafafa;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #4bb947;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.card .button{
+    background-color: #06b900;
+    color: #fafafa;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.2s linear;
+}
+.card .button:hover{
+    background: transparent;
+    border: 2px solid #06b900;
+}
+.contact-me{
+    background: #202020;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-me p{
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.contact-me .button2{
+    background-color: #06b900;
+    color: #fafafa;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.2s linear;
+}
+.contact-me .button2:hover{
+    background: transparent;
+    border: 2px solid #06b900;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+footer p:nth-child(1){
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer p:nth-child(2){
+    color: #fafafa;
+    font-size: 22px;
+    margin-bottom: 10px;
+    width: 500px;
+    line-height: 30px;
+    text-align: center;
+}
+.social{
+    display: flex;
+
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+    background: #06b900;
+    border-radius: 50%;
+    margin: 20px 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+.social a:hover{
+    background: transparent;
+    color: #06b900;
+    transform: scale(1.2);
+}
+.social a:active{
+color: #fafafa;
+}
+.end{
+    color: #06b900;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 10px;
+}
